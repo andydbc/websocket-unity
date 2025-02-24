@@ -1,6 +1,8 @@
 # websocket-unity  
 A communication layer between a web page and Unity using WebSockets.
 
+![preview](https://github.com/user-attachments/assets/94ad62b9-59f5-4ab0-918c-7584990f37f8)
+
 ## Install
 
 ### Launch the Server
