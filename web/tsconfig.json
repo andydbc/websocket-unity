@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+      "skipLibCheck": true, /// Temporarily disable type checking of all declaration files, causing error with React 19 & MDX types.
+      "declaration": true,
+      "declarationMap": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "incremental": true,
+      "module": "esnext",
+      "moduleResolution": "Bundler",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "preserveConstEnums": true,
+      "noEmitOnError": false,
+      "strict": true,
+      "strictNullChecks": true,
+      "target": "es2022",
+      "useDefineForClassFields": true,
+      "verbatimModuleSyntax": true,
+      "typeRoots": ["./node_modules/@types", "./types"]
+    },
+  "exclude": ["./**/node_modules"],
+  "include": [
+    "src/**/*"
+  ],
+}
