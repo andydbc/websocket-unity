@@ -13,6 +13,13 @@ yarn install
 
 ### Launch the Webpage App
 Open a second terminal in the `web/` directory and start the development server:
+
+```sh
+node server.js
+```
+
+### Launce the web frontend
+
 ```sh
 yarn dev
 ```
